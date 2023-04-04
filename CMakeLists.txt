@@ -20,6 +20,9 @@ set(PROJECT_SOURCES
         cwidget.h
         cwidget.ui
         res.qrc
+        form.h
+        form.cpp
+        form.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
